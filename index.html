@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Royale Dining</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>La Royale Dining</h1>
+        <p>Delicious Food. Cozy Atmosphere. Unforgettable Experience.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="dish-card">
+            <img src="https://i.pinimg.com/736x/cd/a9/7d/cda97dccd28a10edd2a9a325ede95ffa.jpg">
+            <h3>Italian Pasta</h3>
+            <p>Rich creamy Alfredo pasta topped with herbs.</p>
+            <strong>₹350</strong>
+        </div>
+
+        <div class="dish-card">
+            <img src="https://i.pinimg.com/1200x/01/2e/96/012e968d4f383a9f7a2d2d210ed6bff9.jpg">
+            <h3>Classic Burger</h3>
+            <p>Juicy beef patty with cheese, lettuce, and tomato.</p>
+            <strong>₹280</strong>
+        </div>
+
+        <div class="dish-card">
+            <img src="https://i.pinimg.com/1200x/57/e7/a1/57e7a19334571946391a7430fcb86202.jpg">
+            <h3>Margherita Pizza</h3>
+            <p>Fresh mozzarella, tomatoes, and basil leaves.</p>
+            <strong>₹420</strong>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation">
+        <h2>Online Reservation</h2>
+        <img src="https://via.placeholder.com/900x300?text=Reserve+Your+Table" class="banner">
+
+        <form class="reservation-form">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone:</label>
+            <input type="text" placeholder="+91 XXXXX XXXXX" required>
+
+            <label>Date:</label>
+            <input type="date" required>
+
+            <label>Time:</label>
+            <input type="time" required>
+
+            <label>No. of Guests:</label>
+            <input type="number" min="1" max="20" required>
+
+            <button class="btn">Reserve Now</button>
+        </form>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+
+        <div class="review-card">
+            <h3>Riya Sharma</h3>
+            <p>"The best pasta I’ve ever tasted! Highly recommended!"</p>
+            <span>★★★★★</span>
+        </div>
+
+        <div class="review-card">
+            <h3>Aman Verma</h3>
+            <p>"Great ambiance and very friendly staff. Loved the pizza!"</p>
+            <span>★★★★☆</span>
+        </div>
+
+        <div class="review-card">
+            <h3>Simran Kaur</h3>
+            <p>"Perfect place for a family dinner. Wonderful experience."</p>
+            <span>★★★★★</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 TasteHeaven Restaurant. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
